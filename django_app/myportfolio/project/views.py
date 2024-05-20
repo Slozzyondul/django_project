@@ -1,4 +1,5 @@
 from django.shortcuts import render
+from .models import Product
 
 # Create your views here.
 def home_screen(request):
@@ -61,3 +62,7 @@ def register_screen(request):
 def password_reset_screen(request):
     print(request.headers)
     return render (request, 'password_reset.html', {})
+
+def product_list_screen(request):
+    products = Product.objects.all()
+    return render (request, 'product_list.html', {'products': products})
