@@ -45,3 +45,19 @@ def thankyou_screen(request):
     print(request.headers)
     return render (request, 'thankyou.html', {})
 
+
+def login_screen(request):
+    print(request.headers)
+    return render (request, 'login.html', {})
+
+def logout_screen(request):
+    print(request.headers)
+    return render (request, 'logout.html', {})
+
+def register_screen(request):
+    print(request.headers)
+    return render (request, 'register.html', {})
+
+def password_reset_screen(request):
+    print(request.headers)
+    return render (request, 'password_reset.html', {})

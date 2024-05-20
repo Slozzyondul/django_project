@@ -25,6 +25,10 @@ from project.views import checkout_screen
 from project.views import services_screen
 from project.views import shop_screen
 from project.views import thankyou_screen
+from project.views import login_screen
+from project.views import logout_screen
+from project.views import register_screen
+from project.views import password_reset_screen
 
 
 urlpatterns = [
@@ -39,4 +43,8 @@ urlpatterns = [
     path('services/', services_screen, name="services"),
     path('shop/', shop_screen, name="shop"),
     path('thankyou/', thankyou_screen, name="thankyou"),
+    path('login/', login_screen, name="login"),
+    path('logout/', logout_screen, name="logout"),
+    path('register/', register_screen, name="register"),
+    path('password_reset/', password_reset_screen, name="password_reset"),
 ]
