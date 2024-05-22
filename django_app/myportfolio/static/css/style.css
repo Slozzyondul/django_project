@@ -13,9 +13,9 @@ body {
   font-family: "Inter", sans-serif;
   font-weight: 400;
   line-height: 28px;
-  color: #6a6a6a;
+  color: #72ecec;
   font-size: 14px;
-  background-color: #eff2f1; }
+  background-color: #babd35; }
 
 a {
   text-decoration: none;
@@ -31,7 +31,7 @@ a {
     font-weight: 600; }
 
 .custom-navbar {
-  background: #5d573b !important;
+  background: #9adddd !important;
   padding-top: 20px;
   padding-bottom: 20px; }
   .custom-navbar .navbar-brand {
